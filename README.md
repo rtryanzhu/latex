@@ -44,3 +44,6 @@
         \end{pmatrix}\\ 
         &= \hf (\ul{Q'}+\ul{Q})\ul{z}-\ul{c}
     \end{align*}\\
+
+# limit symbol
+$\lim\limits_{v_k \to 0}$
