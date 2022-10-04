@@ -28,3 +28,19 @@
         \end{bmatrix}+\ul{c}\\
         &= \hf (\ul{Q'}+\ul{Q})\ul{z}+\ul{c}
     \end{align*}
+
+# calculation process of vecotrs
+    \begin{align*}
+        \grad g(\ul{z})
+        &=\hf \begin{pmatrix}
+            \begin{bmatrix}
+                \frac{\pd g(\ul{z})}{\pd z_1} \\
+                \frac{\pd g(\ul{z})}{\pd z_2} \\
+            \end{bmatrix}-
+            \begin{bmatrix}
+                \frac{\pd \sum_{i=1}^{2}{c_i z_i}}{\pd z_1}\\
+                \frac{\sum_{i=1}^{2}{c_i z_i}}{\pd z_2}\\                
+            \end{bmatrix}
+        \end{pmatrix}\\ 
+        &= \hf (\ul{Q'}+\ul{Q})\ul{z}-\ul{c}
+    \end{align*}\\
